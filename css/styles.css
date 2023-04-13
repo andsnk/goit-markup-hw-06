@@ -784,6 +784,7 @@ header {
 .modal-container {
   display: flex;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .modal-input-btn {
@@ -812,15 +813,11 @@ header {
 }
 
 .modal-link {
+  margin-left: 4px;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
 }
 
-.checkbox-wrap {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 24px;
-}
 
 .modal-checkbox-label {
   display: flex;
@@ -837,6 +834,7 @@ header {
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-top: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;
@@ -856,3 +854,4 @@ header {
 .modal-checkbox-input:hover + .modal-checkbox-label span {
   border-color: var(--pressed-state);
 }
+
