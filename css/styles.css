@@ -251,6 +251,75 @@ header {
   background-color: var(--success);
 }
 
+.footer-form {
+  margin-left: -40px;
+}
+.footer-form-label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+.footer-form-wrap {
+  display: flex;
+  gap: 24px;
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  border-radius: 4px;
+  outline: transparent;
+  color: var(--white-background);
+  background-color: var(--modal-overlay);
+  border: 1px solid var(--white-background);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-input:focus {
+  border-color: var(--primary-brand);
+}
+
+.footer-form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+}
+
+.footer-form-btn {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--primary-brand);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+.footer-form-icon {
+  fill: var(--white-background);
+}
+
 /*? PAGE 1 ?*/
 /** ------- HERO------- **/
 
@@ -818,7 +887,6 @@ header {
   color: var(--primary-brand);
 }
 
-
 .modal-checkbox-label {
   display: flex;
   font-size: 12px;
@@ -854,4 +922,3 @@ header {
 .modal-checkbox-input:hover + .modal-checkbox-label span {
   border-color: var(--pressed-state);
 }
-
