@@ -254,7 +254,7 @@ header {
 .footer-form {
   margin-left: -40px;
 }
-.footer-form-label {
+.footer-form-text {
   display: block;
   margin-bottom: 16px;
   font-weight: 500;
@@ -320,7 +320,6 @@ header {
   fill: var(--white-background);
 }
 
-/*? PAGE 1 ?*/
 /** ------- HERO------- **/
 
 .hero .container {
@@ -581,7 +580,6 @@ header {
   fill: var(--pressed-state);
 }
 
-/*? PAGE 2 ?*/
 /** ------- PORTFOLIO------- **/
 
 .portfolio {
@@ -710,7 +708,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 576px;
   border-radius: 4px;
@@ -723,8 +721,9 @@ header {
 }
 
 .modal-close-btn {
-  margin-left: auto;
-  margin-bottom: 24px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
   width: 24px;
   height: 24px;
   display: flex;
