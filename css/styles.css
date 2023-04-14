@@ -251,7 +251,7 @@ header {
   background-color: var(--success);
 }
 
-.footer-form {
+.footer-form-wrap{
   margin-left: -40px;
 }
 .footer-form-text {
@@ -263,7 +263,7 @@ header {
   letter-spacing: 0.02em;
   color: var(--white-background);
 }
-.footer-form-wrap {
+.footer-form {
   display: flex;
   gap: 24px;
 }
